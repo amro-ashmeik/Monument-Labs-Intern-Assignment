@@ -25,9 +25,3 @@ for (id, name, email) in cursor:
 
 cursor.close()
 cnx.close()
-
-try:
-	print(gi)
-except mysql.error as err:
-	print(what)
-
